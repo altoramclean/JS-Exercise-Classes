@@ -147,7 +147,7 @@ demo(subject){
   return `Today we are learning about ${subject}`
 }
 grade(student, subject){
-  return  `${student.name} recives a perfect score on ${subject}`
+  return  `${student.name} receives a perfect score on ${subject}`
 }
 }
 /*
@@ -173,7 +173,7 @@ class Student extends Lambdasian{
   this.favSubjects = attributes.favSubjects;
   }
   listSubjects(){
-    return `${this.favSubjects}`
+    return `Loving ${this.favSubjects}`
   }
   PRAssignment(subject){
     return `${this.name} has submitted a PR for ${subject}`
